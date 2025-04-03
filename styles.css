@@ -11,7 +11,12 @@ html, body {
 
 body {
     line-height: 1.5;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
 }
 
 img, picture, video, canvas, svg {
@@ -30,4 +35,25 @@ a {
 
 ul, ol {
     list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+    text-decoration: underline;
 }
